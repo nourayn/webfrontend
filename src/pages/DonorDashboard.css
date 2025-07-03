@@ -1,0 +1,57 @@
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f5f7fb; /* Light background like login form */
+}
+
+.dashboard-sidebar {
+  width: 250px;
+  background-color: #2f3e46; /* Professional dark tone */
+  color: #ffffff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  margin: 15px 0;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar-menu li:hover {
+  background-color: #3c4d54;
+}
+
+.dashboard-main {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.dashboard-main h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2f3e46;
+}
+
+.dashboard-main p {
+  font-size: 18px;
+  color: #555;
+}

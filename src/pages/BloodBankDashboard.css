@@ -1,0 +1,38 @@
+/* src/assets/pages/BloodBankDashboard.css */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background: linear-gradient(to bottom, #ff416c, #ff4b2b);
+  color: rgb(113, 109, 109);
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar li:hover {
+  color: #000;
+}
+
+.main-content {
+  flex: 1;
+  padding: 50px;
+  background: #4c4d4f;
+}
